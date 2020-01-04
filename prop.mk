@@ -102,6 +102,10 @@ debug.sf.recomputecrop=0 \
 persist.hwc.ptor.enable=true \
 debug.sf.gpu_comp_tiling=1
 
+# DPM
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.dpm.feature=0
+
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
