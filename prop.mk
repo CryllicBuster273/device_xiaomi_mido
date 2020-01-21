@@ -96,6 +96,7 @@ vendor.gralloc.enable_fb_ubwc=1
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
+media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
