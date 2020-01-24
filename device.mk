@@ -405,3 +405,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Pixel charging animation
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
