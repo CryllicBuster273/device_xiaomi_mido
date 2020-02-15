@@ -242,3 +242,106 @@ ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.min.fling_velocity=160 \
 ro.max.fling_velocity=20000
+
+#Improve Internet speed
+PRODUCT_PROPERTY_OVERRIDES += \
+net.tcp.buffersize.default=4096,87380,256960,4096, 16384,2569>
+net.tcp.buffersize.wifi=4096,87380,256960,4096,163 84,256960 \
+net.tcp.buffersize.umts=4096,87380,256960,4096,163 84,256960 \
+net.tcp.buffersize.gprs=4096,87380,256960,4096,163 84,256960 \
+net.tcp.buffersize.edge=4096,87380,256960,4096,163 84,256960 \
+net.dns1=8.8.8.8 \
+net.dns2=8.8.4.4
+
+#Disables Black Screen After Call
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.lge.proximity.delay=25 \
+mot.proximity.delay=25
+
+#Improves audio and video recording quality
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.media.enc.jpeg.quality=100 \
+ro.media.dec.jpeg.memcap=8000000 \
+ro.media.enc.hprof.vid.bps=8000000 \
+ro.media.capture.maxres=8m \
+ro.media.panorama.defres=3264×1840 \
+ro.media.panorama.frameres=1280×720 \
+ro.camcorder.videoModes=true \
+ro.media.enc.hprof.vid.fps=65
+
+#Enable Faster Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.config.hw_quickpoweron=true
+
+#Make Your Phone Ring as soon as you get a Call
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.telephony.call_ring.delay=0 \
+ring.delay=0
+
+#Increase The Time Between WiFi Network Scans
+PRODUCT_PROPERTY_OVERRIDES += \
+wifi.supplicant_scan_interval=120
+
+#Improved Overall Performance
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.performance.tuning=1
+
+#Stream Videos Faster
+PRODUCT_PROPERTY_OVERRIDES += \
+media.stagefright.enable-player=true \
+media.stagefright.enable-meta=true \
+media.stagefright.enable-scan=true \
+media.stagefright.enable-http=true \
+media.stagefright.enable-rtsp=true \
+media.stagefright.enable-record=false
+
+#build.prop tweaks for battery life
+PRODUCT_PROPERTY_OVERRIDES += \
+wifi.supplicant_scan_interval=180 \
+pm.sleep_mode=1 \
+ro.ril.disable.power.collapse=0 \
+ro.mot.eri.losalert.delay=1000 \
+power_supply.wakeup=enable \
+ro.config.hw_fast_dormancy=1 \
+ro.config.hw_power_saving=1
+
+#Remove FPS cap. May be unstable – better have it activated
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.gr.swapinterval=0
+
+#Better image quality, lower performance
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.use_dithering=1
+
+#Dalvik Virtual Machine tweaks
+PRODUCT_PROPERTY_OVERRIDES += \
+dalvik.vm.checkjni=false \
+dalvik.vm.dexopt-data-only=1 \
+dalvik.vm.heapstartsize=5m \
+dalvik.vm.heapgrowthlimit=48m \
+dalvik.vm.heapsize=64m \
+dalvik.vm.verify-bytecode=false \
+dalvik.vm.execution-mode=int:jit \
+dalvik.vm.lockprof.threshold=250 \
+dalvik.vm.dexopt-flags=m=v,o=y \
+dalvik.vm.stack-trace-file=/data/anr/traces.txt \
+dalvik.vm.jmiopts=forcecopy
+
+#Better signal
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.config.hw_fast_dormancy=1 \
+persist.cust.tel.eons=1
+
+#Better call voice quality
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ril.enable.amr.wideband=1
+
+#Disables blackscreen issue after a call
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.lge.proximity.delay=25 \
+mot.proximity.delay=25
+
+#Screen recognizes only two fingers
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.product.multi_touch_enabled=true \
+ro.product.max_num_touch=2
