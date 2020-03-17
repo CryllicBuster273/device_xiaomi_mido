@@ -1,23 +1,21 @@
-# Device Tree for Xiaomi Redmi Note 4 & 4x (Mido)
+# Device Tree for Xiaomi Redmi Note 4 & 4x Mido
 
-## Spec Sheet
+The Redmi Note 4 (mido) is the mid-range smartphones from Xiaomi.
 
-| Feature                 | Specification                     |
-| :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core 2.0 GHz Cortex-A53      |
-| Chipset                 | Qualcomm MSM8953 Snapdragon 625   |
-| GPU                     | Adreno 506                        |
-| Memory                  | 2/3/4 GB                          |
-| Shipped Android Version | 6.0.1                             |
-| Storage                 | 32/64 GB                          |
-| MicroSD                 | Up to 256 GB                      |
-| Battery                 | 4100 mAh (non-removable)          |
-| Dimensions              | 151 x 76 x 8.5 mm                 |
-| Display                 | 1920x1080 pixels, 5.5 (~401 PPI)  |
-| Rear Camera             | 13 MP, LED flash                  |
-| Front Camera            | 5 MP                              |
-| Release Date            | January 2017                      |
+The Redmi Note 4 was announced and released in January 2017 & Shipped Android version 6.1.0
+  
+# Device specifications
+| Device          | Redmi note 4/4x mido            |
+| :-------------- | :------------------------------ |
+| CPU             | Octa-core 2.0 GHz Cortex-A53    |
+| SoC             | Qualcomm MSM8953 Snapdragon 625 |
+| GPU             | Adreno 506                      |
+| Memory          | 2/3/4 GB                        |
+| Android Version | 10                              |
+| Storage         | 32/64 GB                        |
+| Battery         | 4100 mAh (non-removable)        |
+| Dimensions      | 151 x 76 x 8.5 mm               |
+| Display         | 1920x1080 pixels,5.5 (~401 PPI) |
+| Rear Camera     | 13 MP, LED flash                |
+| Front Camera    | 5 MP                            |                     
 
-## Device Picture
-
-![Redmi Note 4](http://i01.appmifile.com/webfile/globalimg/7/537557F3-A4F1-2490-E9D3-138B2A11DBF6.png "Redmi Note 4")
