@@ -4,9 +4,6 @@
 
 ![Redmi Note 4](https://img.etimg.com/thumb/msid-56668502,width-480,height-360,imgsize-394492,resizemode-4/redmi-note-4-is-here.jpg "Redmi Note 4")
 
-
-## Spec Sheet
-
 | Feature                 | Specification                         |
 | :---------------------- | :------------------------------------ |
 | CPU                     | Octa-core 2.0 GHz Cortex-A53          |
