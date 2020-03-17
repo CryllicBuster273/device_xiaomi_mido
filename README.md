@@ -18,3 +18,5 @@
 | Rear Camera             | 13 MP, LED flash                      |
 | Front Camera            | 5 MP                                  |
 | Release Date            | January 2017 & Device is still active |                        |
+
+![Redmi Note 4 gif](https://thumbs.gfycat.com/IndelibleEllipticalAnophelesmosquito-size_restricted.gif "Readmi Note 4")
