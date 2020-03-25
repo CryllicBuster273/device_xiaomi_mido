@@ -19,5 +19,3 @@ The Redmi Note 4 was announced and released in January 2017 & Shipped Android ve
 | Rear Camera     | 13 MP, LED flash                |
 | Front Camera    | 5 MP                            |                     
 
-# Device picture gif
-![Redmi Note 4 gif](https://thumbs.gfycat.com/IndelibleEllipticalAnophelesmosquito-size_restricted.gif "Readmi Note 4") 
