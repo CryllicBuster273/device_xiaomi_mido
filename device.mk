@@ -140,10 +140,6 @@ PRODUCT_PACKAGES += \
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
-
-# Dex
-PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     Launcher3Quickstep \
     NexusLauncherRelease
