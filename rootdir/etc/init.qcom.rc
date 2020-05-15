@@ -395,3 +395,17 @@ service vendor.power_off_alarm /vendor/bin/power_off_alarm
 
 on property:dev.bootcomplete=1
     setprop sys.io.scheduler "bfq"
+
+# hack by @shashank1436 <9945shashank@gmail.com>
+# It takes logcat without pc or adb 
+service bugreport /system/bin/dumpstate -d -p -B -z -o /data/user_de/0/com.android.shell/files/bugreports/bugreport
+    class main
+    disabled
+    oneshot
+    keycodes 114 115 116
+
+service logcat_debug /system/bin/logcat -f /sdcard/log.txt -v threadtime
+    class main
+    user root
+    group system
+
