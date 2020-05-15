@@ -1,0 +1,14 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "PixysOS-Devices/kernel_xiaomi_mido",
+    "target_path": "kernel/xiaomi/mido",
+    "branch":      "ten"
+  },
+  {
+    "remote": "github",
+    "repository": "PixysOS-Devices/vendor_xiaomi_mido",
+    "target_path": "vendor/xiaomi",
+    "branch": "ten"
+  }
+]
