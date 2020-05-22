@@ -1,0 +1,14 @@
+[
+  {
+    "remote":      "git@github",
+    "repository":  "Fox-kernel/Fox_kernel_mido",
+    "target_path": "kernel/xiaomi/mido",
+    "branch":      "next"
+  },
+  {
+    "remote": "github",
+    "repository": "PixysOS-Devices/vendor_xiaomi_mido",
+    "target_path": "vendor/xiaomi",
+    "branch": "ten"
+  }
+]
